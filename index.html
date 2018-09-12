@@ -1,0 +1,94 @@
+<!--
+ * @author      Eduardo Quintanilha
+ * @description This is a experimental Linux distros based memory game
+ *              written in JavaScript Vanilla for learning purposes.
+ *              Based on marina-ferreira memory game
+ *              hosted on https://marina-ferreira.github.io/tutorials/js/memory-game/
+ * @copyright   MIT License
+-->
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tux Memory!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- [if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="main-board">
+            <div class="board">                
+                    <div class="card card1" data-distro="ubuntu">
+                        <img class="card-front" src="imgs/ubuntu.png" alt="Ubuntu">
+                        <img class="card-back" src="imgs/tux.png" alt="Tux">
+                    </div>
+                    <div class="card card2" data-distro="arch">
+                        <img class="card-front" src="imgs/arch.png" alt="Arch">
+                        <img class="card-back" src="imgs/tux.png" alt="Tux">
+                    </div>
+                    <div class="card card3" data-distro="debian">
+                        <img class="card-front" src="imgs/debian.png" alt="Debian">
+                        <img class="card-back" src="imgs/tux.png" alt="Tux">
+                    </div>
+                    <div class="card card4" data-distro="fedora">
+                        <img class="card-front" src="imgs/fedora.png" alt="Fedora">
+                        <img class="card-back" src="imgs/tux.png" alt="Tux">
+                    </div>
+                    <div class="card card5" data-distro="mint">
+                        <img class="card-front" src="imgs/mint.png" alt="Mint">
+                        <img class="card-back" src="imgs/tux.png" alt="Tux">
+                    </div>
+                    <div class="card card6" data-distro="suse">
+                        <img class="card-front" src="imgs/suse.png" alt="Suse">
+                        <img class="card-back" src="imgs/tux.png" alt="Tux">
+                    </div>
+                    <div class="card card7" data-distro="suse">
+                        <img class="card-front" src="imgs/suse.png" alt="Suse">
+                        <img class="card-back" src="imgs/tux.png" alt="Tux">
+                    </div>
+                    <div class="card card8" data-distro="mint">
+                        <img class="card-front" src="imgs/mint.png" alt="Mint">
+                        <img class="card-back" src="imgs/tux.png" alt="Tux">
+                    </div>
+                    <div class="card card9" data-distro="fedora">
+                        <img class="card-front" src="imgs/fedora.png" alt="Fedora">
+                        <img class="card-back" src="imgs/tux.png" alt="Tux">
+                    </div>
+                    <div class="card card10" data-distro="debian">
+                        <img class="card-front" src="imgs/debian.png" alt="Debian">
+                        <img class="card-back" src="imgs/tux.png" alt="Tux">
+                    </div>
+                    <div class="card card11" data-distro="arch">
+                        <img class="card-front" src="imgs/arch.png" alt="Arch">
+                        <img class="card-back" src="imgs/tux.png" alt="Tux">
+                    </div>
+                    <div class="card card12" data-distro="ubuntu">
+                        <img class="card-front" src="imgs/ubuntu.png" alt="Ubuntu">
+                        <img class="card-back" src="imgs/tux.png" alt="Tux">
+                    </div>  
+            </div>
+        </div>
+
+        <div class="modal-container">
+            <div class="modal-text">
+                <p>You Win! Congratulations!</p>
+            </div>
+            <div class="modal-btn">
+                <button type="button" class="btn-reload">Play again?</button>
+            </div>
+            
+        </div>
+
+        
+        <script src="js/memory.js" async defer></script>
+    </body>
+</html>
