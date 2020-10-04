@@ -18,7 +18,7 @@ body {
     align-items: center;
     height: 100vh;
     margin:auto; 
-    background: #080C2E;  
+    background: #141414;  
     
 }
 .board {
@@ -26,7 +26,7 @@ body {
     height: 640px;
     display: flex;
     flex-wrap: wrap;
-    background: #6E6CBF;
+    background: #5351c7;
     justify-content: space-around;
     align-items: center;
     padding: 4px;
@@ -68,7 +68,7 @@ body {
     transition: transform .2s;
 }
  .disabled {
-    border: 3px solid rgb(32, 216, 32);
+    border: 4px solid rgb(32, 216, 32);
 }
 .card.flip {
     transform: rotateY(180deg);
